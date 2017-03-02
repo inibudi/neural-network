@@ -20,6 +20,8 @@ class FannController extends Controller
      */
     public function train()
     {
+
+        
         die('train');
     }
 

@@ -507,3 +507,36 @@ fieldset[disabled] .btn-success.active {
 hr{
     color: black;
 }
+
+#inputTrain, #inputTest {
+    visibility: hidden;
+}
+
+.resultTrain .result {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.resultTrain .result label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.resultTrain {
+    margin: 20px;
+}
+
+.resultTest .result {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.resultTest .result label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.resultTest {
+    margin: 20px;
+    color: #333;
+}

@@ -12,8 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
+Route::post('input-data', 'FannController@inputData');
 Route::get('test', 'FannController@test');
 Route::get('train', 'FannController@train');

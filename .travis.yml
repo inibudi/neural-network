@@ -4,11 +4,6 @@ php:
   - 7.0
 
 before_script:
-  - mkdir storage
-  - mkdir storage/app
-  - mkdir storage/framework
-  - mkdir storage/framework/sessions
-  - mkdir storage/framework/views
   - chmod 777 -R storage
   - composer self-update
   - composer install --no-interaction
